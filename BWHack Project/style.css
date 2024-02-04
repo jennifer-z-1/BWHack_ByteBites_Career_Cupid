@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+/*HOMEPAGE START*/
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url(images/homepage.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #f9c9c9;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f9c9c9;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box {
+    width: 90%;
+    color: #f9c9c9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #f9c9c9;
+}
+.sign-up-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #f9c9c9;
+    border: 1px solid #f9c9c9;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.sign-up-btn:hover{
+    border: 1px solid #62453E;
+    background: #62453E;
+}
+
+/*HOMEPAGE END*/
+
+/*MATCH FORM START*/
+
+.banner{
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/nav_menu.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.current-page-name{
+    width: 90%;
+    color: #f9c9c9;
+    position: absolute;
+    text-align: left;
+    margin-left: 25px;
+}
+.current-page-name h1{
+    font-size: 50px;
+}
+.sel-cat{
+    display: inline-block;
+    text-decoration: none;
+    color: #62453E;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: #f9c9c9;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 800px;
+    border-radius: 5px;
+}
+#multipleSelect{
+    max-width: 100%;
+    width: 500px;
+}
+.vscomp-toggle-button{
+    padding: 10px 30px 10px 10px;
+    border-radius: 5px;
+}
+.select-form {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#match{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #62453E;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: #f9c9c9;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+.indivi-match1{
+    display: inline-block;
+    text-decoration: none;
+    color: #62453E;
+    padding: 12px 34px;
+    background: #f9c9c9;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.indivi-match1 h1{
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.indivi-match1 h2{
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+.indivi-match1 h3{
+    font-size: 13px;
+    margin-left: 20px;
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#schedule{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 34px;
+    font-size: 15px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 600px;
+    border-radius: 5px;
+}
+.available-times{
+    display: inline-block;
+    text-decoration: none;
+    color: #62453E;
+    padding: 12px 34px;
+    background: #f9c9c9;
+    position: relative;
+    margin-left: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+.available-times h1{
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: left;
+}
+.available-times p{
+    font-size: 13px;
+    margin-left: 20px;
+    text-align: left;
+}
+.cal{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#confirm{
+    display: inline-block;
+    text-decoration: none;
+    color: #62453E;
+    padding: 12px 34px;
+    background: #f9c9c9;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15;
+}
+#confirmed{
+    margin-left: 20px;
+    position: relative;
+    margin-top: 30px;
+    font-size: 15;
+}
+
+/*MATCH FORM END*/

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career Cupid Matching Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="virtual-select.min.css">
+    </head>
+    <body>
+        <section>
+            <div class="banner">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sign_up.html">Sign Up</a></li>
+                    <li><a href="matching_form.html">Match</a></li>
+                    <li><a href="forum.html">Forums</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="daily_puzzle.html">Daily Puzzle</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="current-page-name">
+                <h1>Match</h1> 
+            </div>
+            </div>
+            </section>
+            <div id="selections">
+            <section>
+                <div class="sel-cat">
+                    <h1>Academic/Career Interest(s)</h1>
+                </div>
+            </section>
+
+            <section>
+                <div class="select-form">
+                    <select id="multipleSelect" multiple name="select" placeholder="Select..." data-search="true" data-silent-initial-value-set="true">
+                        <option value="AI/ML">AI/ML</option>
+                        <option value="Blockchain/Crypto">Blockchain/Crypto</option>
+                        <option value="Consulting">Consulting</option>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                        <option value="Data">Data</option>
+                        <option value="Hardware/Robotics">Hardware/Robotics</option>
+                        <option value="Product Management">Product Management</option>
+                        <option value="Software Engineering">Software Engineering</option>
+                        <option value="UX/UI">UX/UI</option>
+                        <option value="Web Development">Web Development</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <div class="sel-cat">
+                    <h1>Experience Type(s)</h1>
+                </div>
+            </section>
+
+            <section>
+                <div class="select-form">
+                    <select id="multipleSelect" multiple name="select" placeholder="Select..." data-search="true" data-silent-initial-value-set="true">
+                        <option value="Conference">Conference</option>
+                        <option value="Extracirriculars">Extracirriculars</option>
+                        <option value="Full-time">Full-time</option>
+                        <option value="Internship">Internship</option>
+                        <option value="Research">Research</option>
+                        <option value="Scholarships">Scholarships</option>
+                        <option value="Study Abroad">Study Abroad</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <div class="sel-cat">
+                    <h1>DEI Affiliation(s)</h1>
+                </div>
+            </section>
+
+            <section>
+                <div class="select-form">
+                    <select id="multipleSelect" multiple name="select" placeholder="Select..." data-search="true" data-silent-initial-value-set="true">
+                        <option value="Asian">Asian</option>
+                        <option value="Black/African">Black/African</option>
+                        <option value="Disability">Disability</option>
+                        <option value="First Generation">First Generation</option>
+                        <option value="International in US">International in US</option>
+                        <option value="LatinX">LatinX</option>
+                        <option value="LGBTQ+">LGBTQ+</option>
+                        <option value="Muslism">Muslism</option>
+                        <option value="Women">Women</option>
+                    </select>
+                </div>
+            </section>
+
+            <button id="match">Match!</button>
+
+            </div>
+
+            <div id="matches">
+
+                <section class="indivi-match1">
+                    <div class="image">
+                        <img src="images/Ally.jpg" width="200" height="200">
+                    </div>
+                        <br>
+                        <h1>Ally Wang</h1>
+                        <br>
+                        <h2>Data Scientist at NVIDIA</h2>
+                        <br>
+                        <h3>USC (University of Southern California)</h3>
+                </section>
+
+                <section class="indivi-match1">
+                    <div class="image">
+                        <img src="images/Dariel.jpg" width="200" height="200">
+                    </div>
+                        <br>
+                        <h1>Dariel Nguyen</h1>
+                        <br>
+                        <h2>Software Engineer at Capital One</h2>
+                        <br>
+                        <h3>University of Maryland</h3>
+                </section>
+
+                <section class="indivi-match1">
+                    <div class="image">
+                        <img src="images/Mandy.jpg" width="200" height="200">
+                    </div>
+                        <br>
+                        <h1>Mandy Cho</h1>
+                        <br>
+                        <h2>Data Engineer at AWS</h2>
+                        <br>
+                        <h3>Rutgers University</h3>
+                </section>
+
+                <section class="indivi-match1">
+                    <div id="avail">
+                    <div class="image">
+                        <img src="images/Kev.jpg" width="200" height="200">
+                    </div>
+                        <br>
+                        <h1>Kev Alumbro</h1>
+                        <br>
+                        <h2>AI/ML Research at Microsoft</h2>
+                        <br>
+                        <h3>University of Maryland</h3>
+                    </div>
+                </section>
+            </div>
+
+            <section>
+            <div id="schedule">
+                <div class="cal">
+                    <img src="images/calendar.png" width="800">
+                </div>
+                <br>
+                <div class="available-times">
+                    <h1>Thursday, 4/27</h1>
+                    <br>
+                    <p>3:30pm to 4pm</p>
+                </div>
+                <br>
+                <br>
+                <div class="available-times">
+                    <h1>Thursday, 4/27</h1>
+                    <br>
+                    <p>4pm to 4:30pm</p>
+                </div>
+                <br>
+                <br>
+                <div class="available-times">
+                    <h1>Friday, 4/28</h1>
+                    <br>
+                    <p>1pm to 1:30pm</p>
+                </div>
+                <br>
+                <br>
+                <div class="available-times">
+                    <h1>Friday, 4/28</h1>
+                    <br>
+                    <p>1:30pm to 2pm</p>
+                </div>
+                <br>
+                <br>
+                <div class="available-times">
+                    <h1>Friday, 4/28</h1>
+                    <br>
+                    <p>2pm to 2:30pm</p>
+                </div>
+                <br>
+                <br>
+                <div id="this-time">
+                <div class="available-times">
+                    <h1>Tuesday, 5/2</h1>
+                    <br>
+                    <p>2pm to 2:30pm</p>
+                </div>
+                </div>
+                <br>
+                <div class="available-times">
+                    <h1>Tuesday, 5/2</h1>
+                    <br>
+                    <p>2:30pm to 3pm</p>
+                </div>
+                <br>
+                <br>
+            </div>
+            </section>
+
+            <section>
+                <div id="confirm">
+                    <h1>Confirm request!</h1>
+                </div>
+            </section>
+
+            <section>
+                <div id="confirmed">
+                    <p>Your request has been sent! Please keep an eye on your inbox for Kev's confirmation!</p>
+                </div>
+            </section>
+
+            <script type="text/javascript" src="js/virtual-select.min.js"></script>
+
+            <script type="text/javascript">
+                VirtualSelect.init({ 
+                    ele: '#multipleSelect' 
+                });
+            </script>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            
+            <script>
+                $("#matches").hide();
+                $("#schedule").hide();
+                $("#confirm").hide();
+                $("#confirmed").hide();
+
+                $(document).ready(function(){
+                    $("#match").click(function(){
+                        $("#selections").hide();
+                        $('#matches').show();
+                    });
+                });
+
+                $(document).ready(function(){
+                    $("#avail").click(function(){
+                        $("#matches").hide();
+                        $('#schedule').show();
+                    });
+                });
+
+                $(document).ready(function(){
+                    $("#this-time").click(function(){
+                        $("#schedule").hide();
+                        $('#confirm').show();
+                    });
+                });
+
+                $(document).ready(function(){
+                    $("#confirm").click(function(){
+                        $("#confirm").hide();
+                        $('#confirmed').show();
+                    });
+                });
+            </script>
+    </body>
+</html>
